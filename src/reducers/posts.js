@@ -1,6 +1,6 @@
 import { CREATE, DELETE, FETCH_DATA, LIKE, UPDATE } from '../constants/actionTypes'
 
-export default  (posts=[],action) => {
+export default PostReducer =  (posts=[],action) => {
   console.log(action.type);
   switch (action.type) {
     case FETCH_DATA:
